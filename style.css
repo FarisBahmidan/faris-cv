@@ -89,8 +89,8 @@ ul {
 .container .experieces .contint .about img {
   width: max(11em, 11vw);
   height: max(11em, 11vw);
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: max(50em, 50vw);
   border: 4px rgba(119, 119, 119, 0.4666666667);
   border-style: dotted;
