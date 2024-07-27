@@ -292,7 +292,7 @@ ul {
   height: clamp(17vw, 38vw, 16em);
   background-size: cover;
   background-size: max(5em, 5vw);
-  background-image: url(/img/image612.svg);
+  background-image: url(img/image612.svg);
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -323,7 +323,7 @@ ul {
 }
 .container .educations .contint .contintprofille .dtels .myProfile::before {
   top: -20%;
-  background-image: url(/img/image60.svg);
+  background-image: url(./img/image60.svg);
   position: absolute;
   content: "";
   right: 0%;
@@ -611,7 +611,7 @@ ul {
   display: flex;
 }
 .container .educations .contint .myeduation footer .sochel .wrapper .button {
-  display: inline-block;
+  display: flex;
   height: 60px;
   width: 60px;
   margin: 0 max(0.4em, 0.4vw);
@@ -621,6 +621,8 @@ ul {
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-out;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .container .educations .contint .myeduation footer .sochel .wrapper .button:hover {
   width: 200px;
