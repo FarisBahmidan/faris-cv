@@ -172,7 +172,7 @@ ul {
   top: 0;
 }
 .container .experieces .contint .experiences .projects::after {
-  right: 0%;
+  right: -10%;
   top: 0;
   transform: rotateZ(180deg);
 }
